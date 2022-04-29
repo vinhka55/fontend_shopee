@@ -197,6 +197,35 @@
     align-items: center;
     visibility: hidden;
 }
+#mobile-modal-nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(230, 214, 214,0.4);
+    visibility: hidden;
+}
+.mobile-nav-list{
+    background-color: var(--white-color);
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-top: 0;
+}
+.mobile-nav-item{
+    padding: 5px 0;
+}
+.mobile-nav-link{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+#mobile-close-modal{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
 .register{
     background-color: var(--white-color);
     width: 400px;

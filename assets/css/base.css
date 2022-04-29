@@ -35,7 +35,9 @@ html{
     color: var(--text-color);
     height: 100%;
 }
-
+ul{
+    list-style: none;
+}
 .grid__full-width{
     width: 100%;
 }
