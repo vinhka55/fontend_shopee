@@ -354,6 +354,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
+    margin-left: 36px;
 }
 .header__search-input{
     width: 90%;
@@ -639,6 +640,8 @@
 
 .product-item__img{
     padding-top: 100%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 .product-item__name{
     font-size: 1.4rem;

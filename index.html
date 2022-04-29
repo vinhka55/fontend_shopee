@@ -712,14 +712,7 @@
     close_modal.onclick=function(){
         modal.style.visibility="hidden"
     }
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.visibility="hidden"
-        }
-    }
-</script>
-<script>
+
     var mobile_modal=document.getElementById('mobile-modal-nav')
     var mobile_nav_icon=document.getElementById('js-mobile-nav')
     var close_modal=document.getElementById('mobile-close-modal')
@@ -732,8 +725,9 @@
     }
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
-        if (event.target == mobile_modal) {
+        if (event.target == modal || event.target == mobile_modal) {
             mobile_modal.style.visibility="hidden"
+            modal.style.visibility="hidden"
         }
     }
 </script>
