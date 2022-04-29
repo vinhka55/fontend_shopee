@@ -641,7 +641,7 @@
 .product-item__img{
     padding-top: 100%;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: contain;
 }
 .product-item__name{
     font-size: 1.4rem;
