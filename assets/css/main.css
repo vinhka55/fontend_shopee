@@ -400,10 +400,13 @@
     margin: 0 8px;
     display: none;
 }
+.mobile-filter{
+    display: none;
+}
+
 .mobile-filter .selection-filter{
     height: 100%;
     border: none;
-    display: none;
 }
 
 /* history search */
@@ -555,6 +558,7 @@
     top: calc(100% + 1px);
     width: 100%;
     display: none;
+    z-index: 999;
 }
 .filter__price-item{
     background-color: var(--white-color);
