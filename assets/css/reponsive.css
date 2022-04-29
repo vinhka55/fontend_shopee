@@ -54,6 +54,9 @@
     .header__cart{
         width: 75px;
     }
+    .history-search{
+        width: 84%;
+    }
 
     /* filter */
     .label-sort{
